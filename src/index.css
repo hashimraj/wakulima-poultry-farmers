@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL. Agricultural theme with greens and warm oranges.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 140 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 140 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 140 15% 15%;
+
+    /* Agricultural green primary */
+    --primary: 135 65% 35%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 135 65% 30%;
+
+    /* Warm orange secondary */
+    --secondary: 35 90% 60%;
+    --secondary-foreground: 140 15% 15%;
+    --secondary-hover: 35 90% 55%;
+
+    --muted: 100 20% 96%;
+    --muted-foreground: 140 10% 45%;
+
+    --accent: 35 90% 60%;
+    --accent-foreground: 140 15% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 100 15% 90%;
+    --input: 100 15% 90%;
+    --ring: 135 65% 35%;
+
+    /* Custom agricultural gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(135 65% 35%), hsl(120 60% 40%));
+    --gradient-warm: linear-gradient(135deg, hsl(35 90% 60%), hsl(45 85% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(135 65% 35%) 0%, hsl(35 90% 60%) 100%);
+    
+    /* Shadows with agricultural colors */
+    --shadow-green: 0 10px 30px -10px hsl(135 65% 35% / 0.3);
+    --shadow-warm: 0 10px 30px -10px hsl(35 90% 60% / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(140 15% 15% / 0.1);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 140 15% 8%;
+    --foreground: 100 20% 95%;
+
+    --card: 140 15% 10%;
+    --card-foreground: 100 20% 95%;
+
+    --popover: 140 15% 10%;
+    --popover-foreground: 100 20% 95%;
+
+    --primary: 135 60% 55%;
+    --primary-foreground: 140 15% 8%;
+    --primary-hover: 135 60% 50%;
+
+    --secondary: 35 80% 55%;
+    --secondary-foreground: 140 15% 8%;
+    --secondary-hover: 35 80% 50%;
+
+    --muted: 140 10% 15%;
+    --muted-foreground: 100 15% 60%;
+
+    --accent: 35 80% 55%;
+    --accent-foreground: 140 15% 8%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 100 20% 95%;
+
+    --border: 140 10% 20%;
+    --input: 140 10% 20%;
+    --ring: 135 60% 55%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(135 60% 55%), hsl(120 55% 60%));
+    --gradient-warm: linear-gradient(135deg, hsl(35 80% 55%), hsl(45 75% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(135 60% 55%) 0%, hsl(35 80% 55%) 100%);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Smooth page transitions */
+  * {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .page-transition-enter {
+    opacity: 0;
+  }
+  
+  .page-transition-enter-active {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+  .route-fade { animation: fadeIn 300ms ease-in-out both; }
+
+  /* Text truncation utility for better mobile */
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  /* Improved button responsiveness */
+  @media (max-width: 640px) {
+    .text-xs { font-size: 0.75rem; }
+    .gap-1 { gap: 0.25rem; }
+    .gap-2 { gap: 0.5rem; }
+    .gap-3 { gap: 0.75rem; }
+    .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+    .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+  }
+}
