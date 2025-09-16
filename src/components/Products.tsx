@@ -88,14 +88,14 @@ const Products = () => {
                     variant="outline" 
                     size="sm" 
                     className="flex-1 gap-2 font-medium"
-                    onClick={() => window.open('tel:+254758905603')}
+                    onClick={() => window.open('tel:+254798258111')}
                   >
                     <Phone className="h-4 w-4" />
                     Call
                   </Button>
                   <Button 
                     className="flex-1 bg-gradient-primary hover:opacity-90 gap-2 font-medium"
-                    onClick={() => window.open('https://wa.me/254758905603?text=Hi, I\'m interested in ' + product.name, '_blank')}
+                    onClick={() => window.open('https://wa.me/254798258111?text=Hi, I\'m interested in ' + product.name, '_blank')}
                   >
                     <MessageSquare className="h-4 w-4" />
                     WhatsApp

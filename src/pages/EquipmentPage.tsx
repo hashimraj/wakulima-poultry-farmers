@@ -357,14 +357,14 @@ const EquipmentPage = () => {
                     variant="outline" 
                     size="sm" 
                     className="flex-1 gap-1 md:gap-2 text-xs md:text-sm"
-                    onClick={() => window.open('tel:0758905603')}
+                    onClick={() => window.open('tel:0798258111')}
                   >
                     <Phone className="h-3 w-3 md:h-4 md:w-4" />
                     Call
                   </Button>
                   <Button 
                     className="flex-1 bg-gradient-primary text-background hover:opacity-90 gap-1 md:gap-2 text-xs md:text-sm"
-                    onClick={() => window.open(`https://wa.me/254758905603?text=Hi, I'm interested in ${product.name}`, '_blank')}
+                    onClick={() => window.open(`https://wa.me/254798258111?text=Hi, I'm interested in ${product.name}`, '_blank')}
                   >
                     <MessageSquare className="h-3 w-3 md:h-4 md:w-4" />
                     WhatsApp
@@ -421,7 +421,7 @@ const EquipmentPage = () => {
                   size="lg" 
                   variant="secondary"
                   className="gap-2"
-                  onClick={() => window.open('tel:0758905603')}
+                  onClick={() => window.open('tel:0798258111')}
                 >
                   <Phone className="h-5 w-5" />
                   Call for Quote
@@ -429,7 +429,7 @@ const EquipmentPage = () => {
                 <Button 
                   size="lg" 
                   className="bg-background text-foreground hover:bg-background/90 gap-2"
-                  onClick={() => window.open('https://wa.me/254758905603?text=Hi, I\'m interested in your equipment', '_blank')}
+                  onClick={() => window.open('https://wa.me/254798258111?text=Hi, I\'m interested in your equipment', '_blank')}
                 >
                   <MessageSquare className="h-5 w-5" />
                   WhatsApp Inquiry
@@ -515,7 +515,7 @@ const EquipmentPage = () => {
                   size="lg" 
                   variant="outline"
                   className="gap-2"
-                  onClick={() => window.open('tel:0758905603')}
+                  onClick={() => window.open('tel:0798258111')}
                 >
                   <Phone className="h-5 w-5" />
                   Schedule Consultation
@@ -523,7 +523,7 @@ const EquipmentPage = () => {
                 <Button 
                   size="lg" 
                   className="bg-gradient-primary text-background hover:opacity-90 gap-2"
-                  onClick={() => window.open('https://wa.me/254758905603?text=Hi, I need help with equipment installation', '_blank')}
+                  onClick={() => window.open('https://wa.me/254798258111?text=Hi, I need help with equipment installation', '_blank')}
                 >
                   <MessageSquare className="h-5 w-5" />
                   Get Installation Quote

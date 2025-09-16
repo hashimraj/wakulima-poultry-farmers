@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
+import { FaTiktok } from "react-icons/fa";
 import { Phone, Mail, MapPin, Clock, MessageSquare, Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Contact = () => {
@@ -41,31 +42,31 @@ const Contact = () => {
                   <Input id="lastName" placeholder="Doe" />
                 </div>
               </div>
-              
+
               <div className="space-y-2">
                 <Label htmlFor="email">Email</Label>
                 <Input id="email" type="email" placeholder="hashimraj02@gmail.com" />
               </div>
-              
+
               <div className="space-y-2">
                 <Label htmlFor="phone">Phone Number</Label>
                 <Input id="phone" placeholder="+254 758 905 603" />
               </div>
-              
+
               <div className="space-y-2">
                 <Label htmlFor="subject">Subject</Label>
                 <Input id="subject" placeholder="Day-old chicks inquiry" />
               </div>
-              
+
               <div className="space-y-2">
                 <Label htmlFor="message">Message</Label>
-                <Textarea 
-                  id="message" 
+                <Textarea
+                  id="message"
                   placeholder="Tell us about your farming needs..."
                   className="min-h-[120px]"
                 />
               </div>
-              
+
               <Button className="w-full bg-gradient-primary hover:opacity-90 font-semibold py-3">
                 Send Message
               </Button>
@@ -83,9 +84,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Phone Numbers</h3>
                     <div className="space-y-1 text-muted-foreground">
-                      <p>Main: +254 758 905 603</p>
-                      <p>WhatsApp: +254 758 905 603</p>
-                      <p>Office: +254 758 905 603</p>
+                      <p>Main: +254 798 258 111</p>
+                      <p>WhatsApp: +254 798 258 111</p>
+                      <p>Office: +254 715 038 827</p>
                     </div>
                   </div>
                 </div>
@@ -99,11 +100,9 @@ const Contact = () => {
                     <Mail className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Email Addresses</h3>
+                    <h3 className="font-semibold text-lg mb-2">Email Address</h3>
                     <div className="space-y-1 text-muted-foreground">
-                      <p>hashimraj02@gmail.com</p>
-                      <p>orders@wakulimapoultry.co.ke</p>
-                      <p>support@wakulimapoultry.co.ke</p>
+                      <p>wamboye22@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -119,9 +118,9 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Farm Location</h3>
                     <div className="space-y-1 text-muted-foreground">
-                      <p>Wakulima Poultry Farm</p>
-                      <p>Kiambu County, Kenya</p>
-                      <p>P.O. Box 12345-00100</p>
+                      <p>Wakulima Poultry Farmers</p>
+                      <p>Nairobi, Kenya</p>
+                      <p>Kalsi House R202 along Luthuli & Mfangano junction.</p>
                     </div>
                   </div>
                 </div>
@@ -148,11 +147,11 @@ const Contact = () => {
 
             {/* Quick Contact Buttons */}
             <div className="grid sm:grid-cols-2 gap-4">
-              <Button className="bg-gradient-primary hover:opacity-90 h-12 gap-2" onClick={() => window.open('https://wa.me/254758905603', '_blank')}>
+              <Button className="bg-gradient-primary hover:opacity-90 h-12 gap-2" onClick={() => window.open('https://wa.me/254798258111', '_blank')}>
                 <MessageSquare className="h-5 w-5" />
                 WhatsApp Chat
               </Button>
-              <Button variant="outline" className="h-12 gap-2 border-2" onClick={() => window.open('tel:+254758905603')}>
+              <Button variant="outline" className="h-12 gap-2 border-2" onClick={() => window.open('tel:+254798258111')}>
                 <Phone className="h-5 w-5" />
                 Call Now
               </Button>
@@ -163,21 +162,26 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
                 <div className="flex gap-4">
-                  <Button variant="outline" size="icon" className="rounded-full">
-                    <Facebook className="h-5 w-5" />
-                  </Button>
-                  <Button variant="outline" size="icon" className="rounded-full">
-                    <Instagram className="h-5 w-5" />
-                  </Button>
-                  <Button variant="outline" size="icon" className="rounded-full">
-                    <Youtube className="h-5 w-5" />
-                  </Button>
-                  <Button variant="outline" size="icon" className="rounded-full">
-                    <MessageSquare className="h-5 w-5" />
-                  </Button>
+                  <a href="https://www.facebook.com/profile.php?id=100081068472342" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full">
+                      <Facebook className="h-5 w-5" />
+                    </Button>
+                  </a>
+                  <a href="https://youtube.com/@derrikwamboye7677?si=WRC5uqfi_scS6YBX" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full">
+                      <Youtube className="h-5 w-5" />
+                    </Button>
+                  </a>
+                  <a href="https://www.tiktok.com/@wakulimapoultry?_t=ZM-8zmGIcLIDYM&_r=1" target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" size="icon" className="rounded-full">
+                      <FaTiktok className="h-5 w-5" />
+                    </Button>
+                  </a>
+
                 </div>
               </CardContent>
             </Card>
+
           </div>
         </div>
       </div>

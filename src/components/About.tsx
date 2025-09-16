@@ -11,7 +11,7 @@ const About = () => {
     {
       icon: Users,
       title: 'Farmer Community',
-      description: 'Supporting over 10,000 farmers across Kenya with training and ongoing consultation.'
+      description: 'Supporting over 10,000 farmers globally with training and ongoing consultation.'
     },
     {
       icon: Truck,
@@ -93,7 +93,7 @@ const About = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="leading-relaxed opacity-90">
-                To empower Kenyan farmers with high-quality livestock, expert knowledge, and sustainable farming solutions 
+                To empower farmers with high-quality livestock, expert knowledge, and sustainable farming solutions 
                 that enhance food security and improve livelihoods across our communities.
               </p>
             </CardContent>
@@ -103,7 +103,7 @@ const About = () => {
             <CardContent className="p-8">
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
               <p className="leading-relaxed opacity-90">
-                To be Kenya's leading agricultural partner, fostering innovation in poultry and pig farming while 
+                To be the leading agricultural partner, fostering innovation in poultry and pig farming while 
                 building resilient farming communities that thrive for generations to come.
               </p>
             </CardContent>

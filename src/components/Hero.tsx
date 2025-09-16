@@ -28,7 +28,7 @@ const Hero = () => {
           
           <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl">
             Premium quality day-old chicks, poultry feeds, farming equipment, and expert consultation. 
-            Your trusted partner in sustainable poultry and pig farming across Kenya.
+            Your trusted partner in sustainable poultry and pig farming across globally.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -46,7 +46,7 @@ const Hero = () => {
               className="font-semibold px-8 py-3 border-2"
             >
               <Phone className="mr-2 h-5 w-5" />
-              Call 0758905603
+              Call +254 798 258111
             </Button>
           </div>
 

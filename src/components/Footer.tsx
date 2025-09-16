@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { FaTiktok } from "react-icons/fa";
 import { Facebook, Instagram, Youtube, MessageSquare, Phone, Mail, MapPin } from 'lucide-react';
 
 const Footer = () => {
@@ -15,21 +16,24 @@ const Footer = () => {
               Wakulima
             </div>
             <p className="text-background/80 mb-6 leading-relaxed">
-              Empowering Kenyan farmers with premium livestock, expert knowledge, and comprehensive agricultural solutions for over 15 years.
+              Empowering farmers with premium livestock, expert knowledge, and comprehensive agricultural solutions for over 15 years.
             </p>
             <div className="flex gap-3">
-              <Button variant="outline" size="icon" className="rounded-full border-background/30 text-background bg-transparent hover:bg-background hover:text-foreground">
-                <Facebook className="h-4 w-4" />
-              </Button>
-              <Button variant="outline" size="icon" className="rounded-full border-background/30 text-background bg-transparent hover:bg-background hover:text-foreground">
-                <Instagram className="h-4 w-4" />
-              </Button>
-              <Button variant="outline" size="icon" className="rounded-full border-background/30 text-background bg-transparent hover:bg-background hover:text-foreground">
-                <Youtube className="h-4 w-4" />
-              </Button>
-              <Button variant="outline" size="icon" className="rounded-full border-background/30 text-background bg-transparent hover:bg-background hover:text-foreground" onClick={() => window.open('https://wa.me/254758905603', '_blank')}>
-                <MessageSquare className="h-4 w-4" />
-              </Button>
+              <a href="https://www.facebook.com/profile.php?id=100081068472342" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon" className="rounded-full">
+                  <Facebook className="h-5 w-5" />
+                </Button>
+              </a>
+              <a href="https://youtube.com/@derrikwamboye7677?si=WRC5uqfi_scS6YBX" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon" className="rounded-full">
+                  <Youtube className="h-5 w-5" />
+                </Button>
+              </a>
+              <a href="https://www.tiktok.com/@wakulimapoultry?_t=ZM-8zmGIcLIDYM&_r=1" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" size="icon" className="rounded-full">
+                  <FaTiktok className="h-5 w-5" />
+                </Button>
+              </a>
             </div>
           </div>
 
@@ -45,7 +49,7 @@ const Footer = () => {
                 { name: 'Contact', href: '#contact' }
               ].map((link) => (
                 <li key={link.name}>
-                  <a 
+                  <a
                     href={link.href}
                     className="text-background/80 hover:text-background transition-colors duration-200"
                   >
@@ -82,24 +86,24 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
                 <div className="text-background/80">
-                  <p>+254 758 905 603</p>
+                  <p>+254 798 258111</p>
                   <p className="text-sm">24/7 Support</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
                 <div className="text-background/80">
-                  <p>hashimraj02@gmail.com</p>
+                  <p>wamboye22@gmail.com</p>
                   <p className="text-sm">General Inquiries</p>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
                 <div className="text-background/80">
-                  <p>Kiambu County, Kenya</p>
-                  <p className="text-sm">Farm Location</p>
+                  <p>Nairobi, Kenya</p>
+                  <p className="text-sm">Kalsi House R202 along Luthuli & Mfangano junction.</p>
                 </div>
               </div>
             </div>
@@ -110,9 +114,9 @@ const Footer = () => {
         <div className="py-6 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-background/60 text-sm">
-              © {currentYear} Wakulima Poultry Farmers. All rights reserved.
+              © {currentYear} Wakulima Poultry Farmers. All rights reserved. @Raj
             </p>
-            
+
             <div className="flex gap-6 text-sm text-background/60">
               <a href="#" className="hover:text-background transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-background transition-colors">Terms of Service</a>

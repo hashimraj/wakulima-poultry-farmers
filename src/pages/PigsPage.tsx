@@ -160,14 +160,14 @@ const PigsPage = () => {
                   variant="outline" 
                   size="sm" 
                   className="flex-1 gap-2 font-medium"
-                  onClick={() => window.open('tel:+254758905603')}
+                  onClick={() => window.open('tel:+254798258111')}
                 >
                   <Phone className="h-4 w-4" />
                   Call
                 </Button>
                 <Button 
                   className="flex-1 bg-gradient-primary hover:opacity-90 gap-2 font-medium"
-                  onClick={() => window.open(`https://wa.me/254758905603?text=Hi, I'm interested in ${product.name}`, '_blank')}
+                  onClick={() => window.open(`https://wa.me/254798258111?text=Hi, I'm interested in ${product.name}`, '_blank')}
                 >
                   <MessageSquare className="h-4 w-4" />
                   WhatsApp
@@ -199,7 +199,7 @@ const PigsPage = () => {
                   size="lg" 
                   variant="secondary"
                   className="gap-2"
-                  onClick={() => window.open('tel:+254758905603')}
+                  onClick={() => window.open('tel:+254798258111')}
                 >
                   <Phone className="h-5 w-5" />
                   Call for Availability
@@ -207,7 +207,7 @@ const PigsPage = () => {
                 <Button 
                   size="lg" 
                   className="bg-background text-foreground hover:bg-background/90 gap-2"
-                  onClick={() => window.open('https://wa.me/254758905603?text=Hi, I\'m interested in your pigs', '_blank')}
+                  onClick={() => window.open('https://wa.me/254798258111?text=Hi, I\'m interested in your pigs', '_blank')}
                 >
                   <MessageSquare className="h-5 w-5" />
                   WhatsApp Inquiry
@@ -302,7 +302,7 @@ const PigsPage = () => {
                   size="lg" 
                   variant="outline"
                   className="gap-2"
-                  onClick={() => window.open('tel:+254758905603')}
+                  onClick={() => window.open('tel:+254798258111')}
                 >
                   <Phone className="h-5 w-5" />
                   Book Training Session
@@ -310,7 +310,7 @@ const PigsPage = () => {
                 <Button 
                   size="lg" 
                   className="bg-gradient-primary hover:opacity-90 gap-2"
-                  onClick={() => window.open('https://wa.me/254758905603?text=Hi, I need pig farming consultation', '_blank')}
+                  onClick={() => window.open('https://wa.me/254798258111?text=Hi, I need pig farming consultation', '_blank')}
                 >
                   <MessageSquare className="h-5 w-5" />
                   Get Consultation

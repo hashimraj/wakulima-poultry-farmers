@@ -101,14 +101,14 @@ const Header = () => {
               variant="outline" 
               size="sm" 
               className="gap-2"
-              onClick={() => window.open('tel:0758905603')}
+              onClick={() => window.open('tel:0798258111')}
             >
               <Phone className="h-4 w-4" />
               Call Us
             </Button>
             <Button 
               className="bg-gradient-primary text-background hover:opacity-90 gap-2"
-              onClick={() => window.open('https://wa.me/254758905603', '_blank')}
+              onClick={() => window.open('https://wa.me/254798258111', '_blank')}
             >
               <MessageSquare className="h-4 w-4" />
               WhatsApp
@@ -164,7 +164,7 @@ const Header = () => {
                     className="gap-2"
                     onClick={() => {
                       setIsOpen(false);
-                      window.open('tel:0758905603');
+                      window.open('tel:0798258111');
                     }}
                   >
                     <Phone className="h-4 w-4" />
@@ -174,7 +174,7 @@ const Header = () => {
                     className="bg-gradient-primary text-background hover:opacity-90 gap-2"
                     onClick={() => {
                       setIsOpen(false);
-                      window.open('https://wa.me/254758905603', '_blank');
+                      window.open('https://wa.me/254798258111', '_blank');
                     }}
                   >
                     <MessageSquare className="h-4 w-4" />

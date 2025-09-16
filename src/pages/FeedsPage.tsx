@@ -120,7 +120,7 @@ const FeedsPage = () => {
                   size="lg" 
                   variant="secondary"
                   className="gap-2"
-                  onClick={() => window.open('tel:+254758905603')}
+                  onClick={() => window.open('tel:+254798258111')}
                 >
                   <Phone className="h-5 w-5" />
                   Call for Pricing
@@ -128,7 +128,7 @@ const FeedsPage = () => {
                 <Button 
                   size="lg" 
                   className="bg-background text-foreground hover:bg-background/90 gap-2"
-                  onClick={() => window.open('https://wa.me/254758905603?text=Hi, I\'m interested in your feeds', '_blank')}
+                  onClick={() => window.open('https://wa.me/254798258111?text=Hi, I\'m interested in your feeds', '_blank')}
                 >
                   <MessageSquare className="h-5 w-5" />
                   WhatsApp Inquiry
@@ -246,14 +246,14 @@ const FeedsPage = () => {
                         variant="outline" 
                         size="sm" 
                         className="flex-1 gap-2 text-xs font-medium"
-                        onClick={() => window.open('tel:+254758905603')}
+                        onClick={() => window.open('tel:+254798258111')}
                       >
                         <Phone className="h-4 w-4" />
                         Call
                       </Button>
                       <Button 
                         className="flex-1 bg-gradient-primary hover:opacity-90 gap-2 text-xs font-medium"
-                        onClick={() => window.open(`https://wa.me/254758905603?text=Hi, I'm interested in ${product.name}`, '_blank')}
+                        onClick={() => window.open(`https://wa.me/254798258111?text=Hi, I'm interested in ${product.name}`, '_blank')}
                       >
                         <MessageSquare className="h-4 w-4" />
                         Chat
@@ -332,14 +332,14 @@ const FeedsPage = () => {
                         variant="outline" 
                         size="sm" 
                         className="flex-1 gap-2 font-medium"
-                        onClick={() => window.open('tel:+254758905603')}
+                        onClick={() => window.open('tel:+254798258111')}
                       >
                         <Phone className="h-4 w-4" />
                         Call
                       </Button>
                       <Button 
                         className="flex-1 bg-gradient-primary hover:opacity-90 gap-2 font-medium"
-                        onClick={() => window.open(`https://wa.me/254758905603?text=Hi, I'm interested in ${product.name}`, '_blank')}
+                        onClick={() => window.open(`https://wa.me/254798258111?text=Hi, I'm interested in ${product.name}`, '_blank')}
                       >
                         <MessageSquare className="h-4 w-4" />
                         WhatsApp
@@ -418,14 +418,14 @@ const FeedsPage = () => {
                         variant="outline" 
                         size="sm" 
                         className="flex-1 gap-2 font-medium"
-                        onClick={() => window.open('tel:+254758905603')}
+                        onClick={() => window.open('tel:+254798258111')}
                       >
                         <Phone className="h-4 w-4" />
                         Call
                       </Button>
                       <Button 
                         className="flex-1 bg-gradient-primary hover:opacity-90 gap-2 font-medium"
-                        onClick={() => window.open(`https://wa.me/254758905603?text=Hi, I'm interested in ${product.name}`, '_blank')}
+                        onClick={() => window.open(`https://wa.me/254798258111?text=Hi, I'm interested in ${product.name}`, '_blank')}
                       >
                         <MessageSquare className="h-4 w-4" />
                         WhatsApp

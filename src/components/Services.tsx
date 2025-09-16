@@ -25,7 +25,7 @@ const Services = () => {
     {
       icon: Truck,
       title: 'Delivery Services',
-      description: 'Safe and timely delivery of livestock, feeds, and equipment across Kenya.',
+      description: 'Safe and timely delivery of livestock, feeds, and equipment globally .',
       features: ['Nationwide Coverage', 'Climate Controlled', 'Tracking System', 'Insurance Coverage']
     },
     {
@@ -57,7 +57,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 md:gap-8">
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-card transition-all duration-300 border-0 shadow-lg">
               <CardHeader className="text-center pb-4">
@@ -109,7 +109,7 @@ const Services = () => {
                   size="lg" 
                   variant="outline"
                   className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary font-semibold px-8"
-                  onClick={() => window.open('tel:0758905603')}
+                  onClick={() => window.open('tel:0798258111')}
                 >
                   Call Now
                 </Button>
