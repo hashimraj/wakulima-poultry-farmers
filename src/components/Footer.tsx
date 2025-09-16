@@ -114,13 +114,18 @@ const Footer = () => {
         <div className="py-6 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-background/60 text-sm">
-              © {currentYear} Wakulima Poultry Farmers. All rights reserved. @Raj
+              © {currentYear} Wakulima Poultry Farmers. All rights reserved.
             </p>
 
             <div className="flex gap-6 text-sm text-background/60">
               <a href="#" className="hover:text-background transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-background transition-colors">Terms of Service</a>
               <a href="#" className="hover:text-background transition-colors">Cookie Policy</a>
+            </div>
+
+            <div className="flex gap-6 text-sm text-background/60">
+              <a href="https://wa.me/254798258111" target="_blank" rel="noopener noreferrer"></a>
+              <p>@raj designs</p>
             </div>
           </div>
         </div>
