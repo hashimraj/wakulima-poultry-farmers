@@ -18,19 +18,19 @@ const Footer = () => {
             <p className="text-background/80 mb-6 leading-relaxed">
               Empowering farmers with premium livestock, expert knowledge, and comprehensive agricultural solutions for over 15 years.
             </p>
-            <div className="flex gap-3">
+            <div className="flex gap-3 ">
               <a href="https://www.facebook.com/profile.php?id=100081068472342" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="icon" className="rounded-full">
+                <Button variant="outline" size="icon" className="rounded-full bg-white/50 hover:bg-white/70 text-black border-none shadow-none">
                   <Facebook className="h-5 w-5" />
                 </Button>
               </a>
               <a href="https://youtube.com/@derrikwamboye7677?si=WRC5uqfi_scS6YBX" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="icon" className="rounded-full">
+                <Button variant="outline" size="icon" className="rounded-full bg-white/50 hover:bg-white/70 text-black border-none shadow-none">
                   <Youtube className="h-5 w-5" />
                 </Button>
               </a>
               <a href="https://www.tiktok.com/@wakulimapoultry?_t=ZM-8zmGIcLIDYM&_r=1" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline" size="icon" className="rounded-full">
+                <Button variant="outline" size="icon" className="rounded-full bg-white/50 hover:bg-white/70 text-black border-none shadow-none">
                   <FaTiktok className="h-5 w-5" />
                 </Button>
               </a>

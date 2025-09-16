@@ -73,7 +73,8 @@ const Hero = () => {
       </div>
 
       {/* WhatsApp Floating Button */}
-      <div className="fixed bottom-6 right-6 z-50">
+      <div className="fixed bottom-6 right-6 z-50 hover:shadow-xl transition-all duration-300 animate-bounce">
+        <a href="https://wa.me/254798258111" target="_blank" rel="noopener noreferrer"></a>
         <Button 
           className="bg-gradient-warm hover:opacity-90 rounded-full w-14 h-14 shadow-warm"
           size="icon"

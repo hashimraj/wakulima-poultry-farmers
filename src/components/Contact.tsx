@@ -121,6 +121,9 @@ const Contact = () => {
                       <p>Wakulima Poultry Farmers</p>
                       <p>Nairobi, Kenya</p>
                       <p>Kalsi House R202 along Luthuli & Mfangano junction.</p>
+                      <br />
+                      <p>Kakamega, Kenya</p>
+                      <p>Ekero-Mumias</p>
                     </div>
                   </div>
                 </div>
